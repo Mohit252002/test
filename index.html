@@ -4,21 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            border: 0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 500px;
+            width: 500px;
+            position: relative;
+            margin: auto;
+            background-color: rgba(0, 0, 255, 0.181);
+        }
+        a{
+            text-decoration: none;
+        }
+        .dwnld_btn{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%);
+          height: 50px;
+          width: 100px;
+          border-radius: 30%;
+          background-color: red;
+        }
+        .dwnld_btn:hover{
+            background-color: rgba(0, 0, 255, 0.181);
+        }
+    </style>
 </head>
+
 <body>
-    <div style="background-color: red;height: 100px;width: 100px;border: 50%;"></div>
-    <h1>This is main branch work</h1>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>hello this is a part of feature 1</p>
-    <div style="background-color: red;height: 100px;width: 100px;border: 50%;"></div>
-    
+    <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam odio voluptatibus eos dignissimos corporis eveniet. Laborum, eveniet at! Temporibus in cumque, aliquid, nulla, neque sequi officia cupiditate libero ab et illo possimus esse. Quo asperiores, aliquam at explicabo blanditiis labore tenetur ratione voluptate ex assumenda aspernatur natus commodi dignissimos nesciunt?
+        <button class="dwnld_btn"><a href="./_5697848a-ded7-42a2-835b-04cba1adc379.jpg" download="dog.png">Click Me</a></button>
+    </div>
 </body>
 </html>
